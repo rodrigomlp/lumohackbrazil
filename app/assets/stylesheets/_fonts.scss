@@ -2,23 +2,27 @@
 
 @import url('https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
 
-$body-font: "Open Sans", "Helvetica", "sans-serif";
+body {
+	font-family: "Open Sans", "Helvetica", "sans-serif";
+}
 
  .my_menu {
- 	font-family: "Dosis", "Helvetica", "sans-serif";
- 	font-size: .8rem;
+ 	font-family: "Open Sans", "Helvetica", "sans-serif";
+ 	font-size: .5rem;
  	font-weight: 600;
  	text-decoration: underline;
  }
  
  .logob {
  	font-family: "Dosis", "Helvetica", "sans-serif";
- 	font-size: 1.5rem;
+ 	font-size: 3rem;
  	font-weight: 800;
+ 	color: #fff;
  }
 
  .logo {
  	font-family: "Dosis", "Helvetica", "sans-serif";
- 	font-size: 1.5rem;
+ 	font-size: 3rem;
  	font-weight: 400;
+ 	color: #fff;
  }
