@@ -5,6 +5,12 @@ class UsersController < ApplicationController
 
   end
 
+  def index
+   if params[:search]
+      @user = User.search(params[:search])
+   end
+end
+
   private
 
   def find_user

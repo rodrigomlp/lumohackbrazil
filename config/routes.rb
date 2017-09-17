@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users
-
-  resources :posts
-  get 'users/:id' => 'users#show', as: :user
+  resources :users do
+    post 'search',  :on => :collection
+  end
 
   root to: "pages#home"
 
