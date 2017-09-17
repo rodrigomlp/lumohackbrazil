@@ -28,6 +28,36 @@ footer p {
 	color: white;
 }
 
+.masthead {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 200px;
+	width: 100%;
+	z-index: -1;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	padding-left: 4rem;
+	background: radial-gradient(#5500B9 30%, #3E1761 100%);
+}
+
+.resp_image_sm {
+	max-width: 100%;
+	height: auto;
+	width: 60%;
+}
+
+.welcome {
+	font-family: "Dosis", "Helvetica", "sans-serif";
+	color: #59CCC0;
+	font-weight: 600;
+	position: absolute;
+	top: 7rem;
+	right: 6rem;
+}
+
 .home_logo {
 	position: absolute;
 	top: 0;
@@ -42,8 +72,15 @@ footer p {
 	background: radial-gradient(#5500B9 30%, #3E1761 100%);
 }
 
-section:nth-of-type(2) {
+#section_home {
 	margin-top: 100vh;
+}
+
+.section_other {
+	margin-top: 200px;
+}
+
+section:nth-of-type(2) {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-start;

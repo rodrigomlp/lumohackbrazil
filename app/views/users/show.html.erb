@@ -1,6 +1,19 @@
-<h1>Teste</h1>
+<section class="masthead">
+	<div><span class="logo bold">rabbit</span><span class="logo">challenge</span></div>
+	<div class="logo_img">
+	<%= image_tag("home_rabbit.png", :alt => "rabbit logo", :class => "resp_image_sm" ) %>
+	</div>
+	<div class="welcome">Welcome back Robert Lowe</div>
+</section>
 
+<section class="section_other">
 <%= form_tag(search_users_path, method: 'get') do %>
       <%= text_field_tag(:search, params[:search]) %>
       <%= submit_tag("Search", name: nil) %>
 <% end %>
+</section>
+
+<footer>
+	<p>&copy;<span class="bold">rabbit</span>challenge</p>
+	<div class="b_rabbit"><%= image_tag("low_rabbit.png", :alt => "footer rabbit" ) %></div>
+</footer>
