@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+// Graphical variables
+ @import "fonts";
+ @import "colors";
+
