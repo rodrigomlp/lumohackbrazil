@@ -5,7 +5,27 @@
 body {
 	margin: 0;
 	padding: 0;
-	
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	right: 0;
+	height: 60px;
+	width: 100%;
+	z-index: -1;
+	background: radial-gradient(#5500B9 30%, #3E1761 100%);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding-left: 2rem;
+	margin-top: 3rem;
+	margin-bottom: 0;
+}
+
+footer p {
+	color: white;
 }
 
 .home_logo {
@@ -72,4 +92,12 @@ section:nth-of-type(4) {
 
 .top_m {
 	margin-top: 1rem;
+}
+
+.right-box {
+	flex-basis:40%;
+}
+
+.b_rabbit {
+	margin-top: -1rem;
 }

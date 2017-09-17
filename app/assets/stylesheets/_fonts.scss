@@ -22,6 +22,20 @@ h3 {
 	margin: .6rem 0 .4rem 0;
 }
 
+h4 {
+	font-weight: 600;
+	color: #5500B9;
+	margin: .5rem auto;
+	text-align: center;
+	width: 80%;
+}
+
+.byline {
+	font-weight: 400;
+	display: block;
+	margin-top: .5rem;
+}
+
 .bold {
 	font-weight: 800 !important;
 }
@@ -44,5 +58,12 @@ h3 {
  	font-size: .8rem;
  	margin: 0 .8rem;
  	padding: 0;
+ }
+
+ .copyr {
+ 	font-family: "Dosis", "Helvetica", "sans-serif";
+ 	font-size: 1rem;
+ 	font-weight: 400;
+ 	color: #fff;
  }
 
